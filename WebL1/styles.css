@@ -1,0 +1,12 @@
+html {
+    display: grid;
+    grid-template-columns: 2% 1fr 1fr 2%;
+    grid-template-rows: 20vh 70vh 10vh;
+    background-color: hotpink;
+    
+}
+
+nav a {
+    color: white;
+    font-size: 40px;
+}
