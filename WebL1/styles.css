@@ -2,11 +2,16 @@ html {
     display: grid;
     grid-template-columns: 2% 1fr 1fr 2%;
     grid-template-rows: 20vh 70vh 10vh;
-    background-color: hotpink;
+    background-image: linear-gradient(rgb(144, 0, 255), rgb(255, 0, 192), 
+rgb(255, 0, 0));
     
 }
 
 nav a {
     color: white;
     font-size: 40px;
+}
+
+nav {
+    grid-column: 2/3;
 }
