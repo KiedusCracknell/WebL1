@@ -1,17 +1,25 @@
-html {
+@font-face {
+    font-family: "MarketDeco";
+    src: url(Fonts/MarketDeco.ttf)
+}
+
+body {
     display: grid;
     grid-template-columns: 2% 1fr 1fr 2%;
     grid-template-rows: 20vh 70vh 10vh;
-    background-image: linear-gradient(rgb(144, 0, 255), rgb(255, 0, 192), 
-rgb(255, 0, 0));
-    
+    background-image: linear-gradient(rgb(144, 0, 255), rgb(255, 0, 192),
+            rgb(255, 0, 0));
+
 }
 
 nav a {
     color: white;
     font-size: 40px;
+    font-family: "MarketDeco";
+
 }
 
 nav {
     grid-column: 2/3;
+    grid-row: 1/2;
 }
