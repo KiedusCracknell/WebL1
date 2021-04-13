@@ -3,6 +3,8 @@
     src: url(Fonts/MarketDeco.ttf)
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap');
+
 body {
     display: grid;
     grid-template-columns: 2% 3fr 2fr 1fr 2%;
@@ -42,18 +44,17 @@ section {
     grid-row: 2/3;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .images {
-    width: 80%;
+    width: 100%;
     grid-column: 3/4;
     grid-row: 2/3;
     margin-top: 10%;
 }
 
 .description p {
-    font-family: cursive;
+    font-family: 'Karla', sans-serif;
     font-style: italic;
     width: 70%;
     font-size: 2vmax;
@@ -70,4 +71,18 @@ section {
     grid-column: 4/5;
     grid-row: 2/3;
     margin-left: 20%;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.contact h1 {
+    font-family: 'Karla', sans-serif;
+    font-size: 250%;
+}
+
+.contact {
+    margin-left: 5%;
 }
