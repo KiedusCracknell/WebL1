@@ -10,7 +10,7 @@ body {
     grid-template-columns: 2% 3fr 2fr 1fr 2%;
     grid-template-rows: 15vh 80vh 5vh;
     background-image: linear-gradient(rgb(144, 0, 255), rgb(255, 0, 192),
-            rgb(255, 0, 0));
+            rgb(255, 0, 0), rgb(144, 0, 255));
 
 
 }
@@ -96,10 +96,21 @@ nav a:hover {
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
 }
 
-.pad {
-    width: 30%;
-    margin-left: 40px;
+li {
+    text-align: center;
+}
+
+li img {
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+
+}
+
+.small {
+
+    width: 40%;
 }
