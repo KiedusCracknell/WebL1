@@ -3,6 +3,23 @@
 <head>
     <title>Iridescent</title>
     <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <script>
+        var imgs = ['Images/MousepadLarge.png', 'Images/MousepadLarge(inverted).png'];
+        var counter = 0;
+
+        function change() {
+
+            counter++;
+            document.getElementById('slider').src = imgs[counter];
+            if (counter >= 1) {
+
+                counter = -1;
+            }
+        }
+
+    </script>
+
 </head>
 
 <body>
@@ -13,12 +30,12 @@
     </nav>
 
     <div class="logo">
-        <img class="logo" src="Images/logo.png" >
+        <img class="logo" src="Images/logo.png" alt="Iridescent Logo">
     </div>
 
     <section>
-        <img class="images" src="Images/MousepadLarge.png">
-
+        <button class="next" onclick="change()">next</button>
+        <img onclick="change()" id="slider" alt="ProductSlider" class="images" src="Images/MousepadLarge.png">
         <div class="description">
             <h1>Iridescent mousepad mousepad</h1>
             <p>
